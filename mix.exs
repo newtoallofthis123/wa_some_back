@@ -25,6 +25,8 @@ defmodule WaSomeBack.MixProject do
       {:plug, "~> 1.14"},
       {:plug_cowboy, "~> 2.0"},
       {:httpoison, "~> 1.8"}, 
+      {:jason, "~> 1.4"},
+      {:cors_plug, "~> 3.0"}
     ]
   end
 end
